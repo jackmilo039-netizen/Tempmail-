@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jackmilo039-netizen.github.io/Tempmail-/sitemap.xml
