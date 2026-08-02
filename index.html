@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TempMail Pro</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📧 TempMail Pro</h1>
+
+<p>Create a temporary email instantly.</p>
+
+<input id="email" type="text" placeholder="Your temporary email" readonly>
+
+<button id="generate">Generate Email</button>
+
+<button id="newEmail">New Email</button>
+
+<button id="copy">Copy Email</button>
+
+<div id="status"></div>
+
+<div id="notification" class="notification">
+📩 New message received!
+</div>
+ <h2>📥 Inbox (<span id="mailCount">0</span>)</h2>
+
+<div id="inbox">
+    No messages yet.
+</div>
+  <button id="refresh">Refresh Inbox</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
