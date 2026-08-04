@@ -41,18 +41,33 @@
   <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"WebSite",
-  "name":"TempMail Pro",
-  "url":"https://jackmilo039-netizen.github.io/Tempmail-/",
-  "description":"Free temporary email service. Create disposable email addresses instantly and protect your privacy from spam.",
-  "publisher":{
+  "@graph":[
+    {
       "@type":"Organization",
       "name":"TempMail Pro",
-      "logo":{
-          "@type":"ImageObject",
-          "url":"https://jackmilo039-netizen.github.io/Tempmail-/logo.png"
+      "url":"https://jackmilo039-netizen.github.io/Tempmail-/",
+      "logo":"https://jackmilo039-netizen.github.io/Tempmail-/logo.png"
+    },
+    {
+      "@type":"WebSite",
+      "name":"TempMail Pro",
+      "url":"https://jackmilo039-netizen.github.io/Tempmail-/",
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":"https://jackmilo039-netizen.github.io/Tempmail-/?q={search_term_string}",
+        "query-input":"required name=search_term_string"
       }
-  }
+    },
+    {
+      "@type":"WebApplication",
+      "name":"TempMail Pro",
+      "applicationCategory":"UtilitiesApplication",
+      "operatingSystem":"Android, iOS, Windows, macOS",
+      "url":"https://jackmilo039-netizen.github.io/Tempmail-/",
+      "image":"https://jackmilo039-netizen.github.io/Tempmail-/logo.png",
+      "description":"Free temporary email service to generate disposable email addresses instantly."
+    }
+  ]
 }
   </script>
 
@@ -72,6 +87,15 @@ Create a free temporary email address instantly. Receive emails online without r
 </p>
 
 <input id="email" type="text" placeholder="Your temporary email" readonly>
+  <section class="seo-content">
+
+<h2>Free Temporary Email Generator</h2>
+
+<p>
+TempMail Pro provides free temporary email addresses that help protect your privacy online. Generate a disposable email instantly, receive verification emails, avoid spam, and keep your personal inbox secure. Our temporary inbox is fast, anonymous, and requires no registration.
+</p>
+
+  </section>
 
   <div class="buttons">
     <button id="generate" onclick="window.open('https://www.effectivecpmnetwork.com/w695dncn?key=d8e7fab796577f5131c1c901bde0d62f', '_blank')">Generate Email</button>
