@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-       <loc>https://jackmilo039-netizen.github.io/Tempmail-/</loc>
-       <lastmod>2026-08-02T17:28:34+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+    <loc>https://jackmilo039-netizen.github.io/Tempmail-/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
+
   <url>
-       <loc>https://jackmilo039-netizen.github.io/Tempmail-/privacy.html</loc>
-       <lastmod>2026-08-02T17:28:34+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://jackmilo039-netizen.github.io/Tempmail-/about.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-       <loc>https://jackmilo039-netizen.github.io/Tempmail-/terms.html</loc>
-       <lastmod>2026-08-02T17:28:34+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://jackmilo039-netizen.github.io/Tempmail-/privacy.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
+
   <url>
-       <loc>https://jackmilo039-netizen.github.io/Tempmail-/about.html</loc>
-       <lastmod>2026-08-02T17:28:34+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://jackmilo039-netizen.github.io/Tempmail-/terms.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
+
 </urlset>
