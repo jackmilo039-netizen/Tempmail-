@@ -1,12 +1,11 @@
 {
   "name": "TempMail Pro",
-  "short_name": "TempMail",
-  "description": "Free Temporary Email Service",
+  "short_name": "TempMail Pro",
+  "description": "Free temporary email service. Create disposable email addresses instantly and receive emails online.",
   "start_url": "/Tempmail-/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "logo.png",
